@@ -1,0 +1,12 @@
+#Andiamo a realizzare un programma generatore di nomi
+print ("Benvenuto in: Genera un Nome per la tua Band")#riga di introduzione al programma
+print ("\n")#stringa dedicata alla generazione di una riga vuota
+citta = input ("Inserisci il nome della tua città di origine: ")#prima variabile con comando input per guidare l'utente all'inserimento del primo dato
+print ("\n")
+animaleDomestico = input ("Ok! Adesso inserisci il nome, o i nomi del/i tuo/tuoi animale/i domestico/i: ")#seconda variabile con comando input per guidare l'utente all'iserimento del secondo dato
+print("\n")
+print ("Benissimo!")
+print ("Adesso andrò a generare il nome della tua futura e fantastica Band!")
+print ("...rullo di tamburi...")
+print ("\n")
+print ("Il nome della tua band è: ", citta + animaleDomestico)#riga di chiusura del programma con funzione comprendente le variabili ed il comando + che le unisce per generare il nome della Band
